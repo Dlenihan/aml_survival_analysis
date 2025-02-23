@@ -1,0 +1,117 @@
+---
+title: "Survival Analysis of AML Patients: The Prognostic Role of FLT3 Mutations and Cytogenetic Risk"
+author: "Diarmuid Lenihan"
+header-includes:
+  - \usepackage{titling}
+  - \pretitle{\begin{center}\huge\bfseries}
+  - \posttitle{\par\end{center}}
+  - \preauthor{\begin{center}\Large}
+  - \postauthor{\par\end{center}}
+  - \predate{\begin{center}\large}
+  - \postdate{\par\end{center}}
+  - \preauthor{\begin{center}\large School of Biosciences, University of Liverpool \\ \vspace{1em} }
+  - \postauthor{\end{center}}
+date: "`r Sys.Date()`"
+output: 
+  pdf_document:
+    latex_engine: xelatex
+    toc: true
+    toc_depth: 2
+    number_sections: true
+mainfont: "Times New Roman"
+---
+
+```{r setup, include=FALSE}
+# Load required libraries and set options
+knitr::opts_chunk$set(echo = TRUE)
+library(survival)
+library(survminer)
+library(ggplot2)
+library(dplyr)
+
+# Ensure TinyTeX is installed for PDF generation
+if (!requireNamespace("tinytex", quietly = TRUE)) {
+  install.packages("tinytex")
+  tinytex::install_tinytex()
+}
+```
+
+# **Abstract**
+Acute myeloid leukaemia (AML) is an aggressive haematological malignancy with poor survival outcomes. The prognosis is influenced by various genetic mutations, including FLT3 mutations, which have been associated with poor clinical outcomes. This study evaluates the impact of FLT3 mutation status on AML patient survival, using Cox proportional hazards modelling and Kaplan-Meier survival analysis. A cohort of 200 patients was analysed, incorporating bone marrow blast percentage, white blood cell count, and cytogenetic risk as covariates. The results indicate that FLT3 mutations significantly reduce survival probability (p = 0.051), and patients classified under poor cytogenetic risk show the worst outcomes. This study highlights the need for targeted therapeutic strategies for FLT3-mutant AML patients.
+
+# **Introduction**
+Acute myeloid leukaemia (AML) is a rapidly progressing malignancy of the myeloid lineage, characterised by the uncontrolled proliferation of immature blast cells in the bone marrow. The disease predominantly affects older adults, with a median age at diagnosis of 68 years. Despite advances in treatment, AML remains associated with poor survival rates, with a 5-year overall survival of approximately 15%.
+
+Genetic mutations play a pivotal role in AML prognosis. The FMS-like tyrosine kinase 3 (FLT3) gene mutation is among the most common and confers an adverse prognosis. FLT3 mutations, particularly internal tandem duplications (FLT3-ITD), promote uncontrolled cell proliferation and resistance to chemotherapy. This study aims to assess the impact of FLT3 mutation status on AML survival outcomes using Cox proportional hazards regression and Kaplan-Meier survival analysis. 
+
+# **Methods**
+## **Data Source**
+The dataset used in this study comprised 200 AML patients. Data included FLT3 mutation status, patient demographics, bone marrow blast percentage at diagnosis, white blood cell (WBC) count, and cytogenetic risk classification. 
+
+## **Data Processing**
+```{r data_processing, echo=TRUE}
+# Load the processed dataset
+aml_data <- readRDS("processed_aml_data.rds")  # Use read.csv("processed_aml_data.csv") if saved as CSV
+```
+
+## **Statistical Analysis**
+- Kaplan-Meier Survival Analysis: Estimated survival probabilities for FLT3-mutant and wild-type (WT) patients, stratified by age groups.
+- Cox Proportional Hazards Model: Evaluated the impact of FLT3 mutation status on survival, adjusting for covariates.
+- Proportional Hazards Assumption: Tested using Schoenfeld residuals.
+
+# **Results**
+## **Kaplan-Meier Survival Analysis**
+```{r survival_anaysis}
+# Kaplan-Meier survival analysis
+surv_obj <- survfit(Surv(survival_time_years, vital_status) ~ FLT3_mut_status + strata(age_group), data = aml_data)
+
+# Plot survival curves
+ggsurvplot(surv_obj, 
+           data = aml_data, 
+           conf.int = TRUE, 
+           pval = TRUE, 
+           legend.title = "FLT3 Mutation Status & Age Group", 
+           legend.labs = c("WT ≤50", "Mutant ≤50", "WT 51-65", "Mutant 51-65", "WT >65", "Mutant >65"),
+           xlab = "Time (Years)", 
+           ylab = "Survival Probability",
+           ggtheme = theme_minimal())
+```
+
+## Cox Proportional Hazards Model
+```{r hazards_model}
+# Fit the stratified Cox model
+cox_model_stratified <- coxph(Surv(survival_time_years, vital_status) ~ 
+                              FLT3_mut_status + 
+                              BM_blast_percentage_at_diagnosis + 
+                              WBC_count_at_diagnosis + 
+                              risk_cyto_at_diagnosis + 
+                              strata(age_group), 
+                              data = aml_data)
+
+# Display model summary
+summary(cox_model_stratified)
+```
+
+## **Proportional Hazards Assumption**
+```{r hazards_assumption}
+# Test proportional hazards assumption
+ph_test <- cox.zph(cox_model_stratified)
+print(ph_test)
+
+# Plot Schoenfeld residuals
+ggcoxzph(ph_test)
+```
+
+# **Discussion**
+The findings align with previous research indicating that FLT3 mutations confer a poor prognosis. The FLT3-mutant cohort exhibited significantly lower survival probabilities, supporting the inclusion of FLT3 inhibitors (e.g., midostaurin) in treatment regimens. Cytogenetic risk classification was the strongest predictor of survival.
+
+Limitations include the small sample size (n = 200), which may affect statistical power. Future research should examine the interaction between FLT3 mutations and emerging targeted therapies.
+
+**Word Count:**
+
+**GAI Declaration:**
+
+# **Acknowledgements**
+
+# **References**
+

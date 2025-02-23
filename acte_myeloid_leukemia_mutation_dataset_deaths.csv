@@ -1,0 +1,201 @@
+patient_ID,FLT3_mut_status,sex,race,FAB,age,BM_blast_percentage,WBC,risk_cyto,risk_molecular,days_to_birth,days_to_death,vital_status
+TCGA-AB-2802,0,Male,WHITE,M4,50,88,16.9,Intermediate,Intermediate,-18385,365,DECEASED
+TCGA-AB-2803,0,Female,WHITE,M3,61,44,1,Good,Good,-22584,792,DECEASED
+TCGA-AB-2804,0,Male,WHITE,M3,30,82,5.7,Intermediate,Good,-11203,[Not Applicable],LIVING
+TCGA-AB-2805,0,Male,WHITE,M0,77,67,92,Intermediate,Intermediate,-28124,576,DECEASED
+TCGA-AB-2806,0,Male,WHITE,M1,46,90,29.4,Good,Good,-16892,944,DECEASED
+TCGA-AB-2807,0,Female,WHITE,M1,68,91,3.1,Intermediate,Intermediate,-25143,180,DECEASED
+TCGA-AB-2808,0,Male,WHITE,M2,23,59,32.4,Intermediate,Intermediate,-8520,[Not Applicable],LIVING
+TCGA-AB-2809,0,Female,WHITE,M2,64,60,116.5,Intermediate,Intermediate,-23679,62,DECEASED
+TCGA-AB-2810,0,Female,BLACK,M2,76,48,61.6,N.D.,N.D.,-27970,31,DECEASED
+TCGA-AB-2811,1,Male,WHITE,M4,81,98,90.6,Intermediate,Intermediate,-29765,243,DECEASED
+TCGA-AB-2812,1,Female,BLACK,M2,25,53,34.2,Intermediate,Intermediate,-9253,366,DECEASED
+TCGA-AB-2813,0,Male,WHITE,M4,78,40,9.9,Poor,Poor,-28581,31,DECEASED
+TCGA-AB-2814,1,Female,WHITE,M0,39,75,2.3,Poor,Poor,-14426,792,DECEASED
+TCGA-AB-2815,0,Male,WHITE,M4,49,81,57.1,Good,Good,-17988,821,DECEASED
+TCGA-AB-2816,1,Female,WHITE,M4,57,90,87.5,Intermediate,Intermediate,-20938,245,DECEASED
+TCGA-AB-2817,0,Male,WHITE,M2,63,57,77.3,Poor,Poor,-23376,273,DECEASED
+TCGA-AB-2818,1,Female,ASIAN,M2,62,46,75.2,Intermediate,Intermediate,-22707,303,DECEASED
+TCGA-AB-2819,0,Female,WHITE,M2,52,67,4.1,Good,Good,-19053,[Not Applicable],LIVING
+TCGA-AB-2820,0,Male,BLACK,M0,76,74,14.5,Poor,Poor,-27970,0,DECEASED
+TCGA-AB-2821,0,Male,WHITE,M1,64,60,1.2,Intermediate,Intermediate,-23527,821,DECEASED
+TCGA-AB-2822,0,Male,WHITE,M0,65,99,2.9,Intermediate,Intermediate,-24017,972,DECEASED
+TCGA-AB-2823,0,Female,WHITE,M3,61,73,86.4,Good,Good,-22522,0,DECEASED
+TCGA-AB-2824,0,Male,WHITE,M5,44,74,8.8,Intermediate,Intermediate,-16437,30,DECEASED
+TCGA-AB-2825,1,Female,WHITE,M5,31,83,137.2,Intermediate,Intermediate,-11384,211,DECEASED
+TCGA-AB-2826,0,Female,WHITE,M4,64,72,131.5,Intermediate,Intermediate,-23468,731,DECEASED
+TCGA-AB-2827,0,Male,WHITE,M2,33,33,2.8,Intermediate,Intermediate,-12237,273,DECEASED
+TCGA-AB-2828,0,Male,WHITE,M4,55,35,22.2,Good,Good,-20393,[Not Applicable],LIVING
+TCGA-AB-2829,0,Male,BLACK,M6,50,70,5.5,N.D.,Poor,-18386,273,DECEASED
+TCGA-AB-2830,1,Female,WHITE,M4,64,85,2.9,Intermediate,Intermediate,-23404,275,DECEASED
+TCGA-AB-2831,0,Male,WHITE,M0,59,61,1.4,Intermediate,Intermediate,-21550,640,DECEASED
+TCGA-AB-2832,0,Female,WHITE,M5,59,95,12.1,Intermediate,Poor,-21915,365,DECEASED
+TCGA-AB-2833,0,Male,WHITE,M4,77,80,40.4,Intermediate,Intermediate,-28307,456,DECEASED
+TCGA-AB-2834,1,Male,WHITE,M4,33,71,25.9,Poor,Poor,-12266,245,DECEASED
+TCGA-AB-2835,0,Male,WHITE,M5,48,83,116.2,Intermediate,Intermediate,-17624,[Not Applicable],LIVING
+TCGA-AB-2836,1,Male,WHITE,M4,35,90,52.9,Intermediate,Poor,-12904,517,DECEASED
+TCGA-AB-2837,0,Female,WHITE,M5,66,90,111.8,Intermediate,Intermediate,-24381,0,DECEASED
+TCGA-AB-2838,0,Male,WHITE,M2,67,50,2.1,Poor,Poor,-24503,365,DECEASED
+TCGA-AB-2839,0,Female,WHITE,M2,51,64,42.1,Intermediate,Intermediate,-18963,486,DECEASED
+TCGA-AB-2840,1,Male,WHITE,M3,74,51,31.5,Good,Good,-27243,28,DECEASED
+TCGA-AB-2841,0,Female,WHITE,M3,51,93,3.6,Good,Good,-18809,1401,DECEASED
+TCGA-AB-2842,0,Male,WHITE,M4,64,95,2.3,Intermediate,Poor,-23741,0,DECEASED
+TCGA-AB-2843,0,Male,WHITE,M6,77,75,2.6,Intermediate,Intermediate,-28274,215,DECEASED
+TCGA-AB-2844,1,Male,WHITE,M2,63,80,17,Poor,Poor,-23254,121,DECEASED
+TCGA-AB-2845,0,Female,WHITE,M2,37,52,18.7,Intermediate,Intermediate,-13728,303,DECEASED
+TCGA-AB-2846,0,Female,WHITE,M4,57,61,13.6,Good,Good,-20910,1402,DECEASED
+TCGA-AB-2847,0,Male,WHITE,M1,53,72,2.7,Poor,Poor,-19481,607,DECEASED
+TCGA-AB-2848,0,Male,WHITE,M4,62,65,118.8,Intermediate,Intermediate,-22980,455,DECEASED
+TCGA-AB-2849,0,Male,WHITE,M0,39,83,5,Poor,Poor,-14520,[Not Applicable],LIVING
+TCGA-AB-2850,0,Female,BLACK,M2,72,45,3,N.D.,N.D.,-26298,60,DECEASED
+TCGA-AB-2851,1,Female,WHITE,M5,66,32,78.5,Intermediate,Intermediate,-24318,242,DECEASED
+TCGA-AB-2853,1,Male,WHITE,M1,51,85,103.6,Intermediate,Intermediate,-18720,88,DECEASED
+TCGA-AB-2854,0,Female,WHITE,M4,51,73,2.9,Intermediate,Intermediate,-18808,366,DECEASED
+TCGA-AB-2855,0,Male,WHITE,M1,18,86,41.5,Poor,Poor,-6636,211,DECEASED
+TCGA-AB-2856,0,Male,WHITE,M4,63,82,76.7,Intermediate,Poor,-23317,149,DECEASED
+TCGA-AB-2857,0,Male,WHITE,M6,54,30,2.3,Poor,Poor,-19905,306,DECEASED
+TCGA-AB-2858,0,Female,WHITE,M2,75,48,8.3,Good,Good,-27547,576,DECEASED
+TCGA-AB-2859,0,Male,BLACK,M2,40,47,8.3,Intermediate,Intermediate,-14671,303,DECEASED
+TCGA-AB-2860,0,Female,WHITE,M7,60,58,0.8,Poor,Poor,-22035,426,DECEASED
+TCGA-AB-2861,0,Male,WHITE,M5,76,78,4,Poor,Poor,-27939,0,DECEASED
+TCGA-AB-2862,0,Female,BLACK,M3,33,100,0.9,Intermediate,Good,-12265,[Not Applicable],LIVING
+TCGA-AB-2863,0,Male,WHITE,M1,63,81,46.4,Poor,Poor,-23132,31,DECEASED
+TCGA-AB-2864,0,Female,WHITE,M1,53,82,1.2,Intermediate,Intermediate,-19724,577,DECEASED
+TCGA-AB-2865,0,Male,WHITE,M1,75,40,6.4,Intermediate,Intermediate,-27486,61,DECEASED
+TCGA-AB-2866,0,Male,WHITE,M1,67,89,30.8,Intermediate,Intermediate,-24684,152,DECEASED
+TCGA-AB-2867,0,Female,WHITE,M2,66,70,3.4,Intermediate,Intermediate,-24256,184,DECEASED
+TCGA-AB-2868,0,Male,WHITE,M7,77,47,1.9,Poor,Poor,-28216,151,DECEASED
+TCGA-AB-2869,1,Female,NH/B,M2,64,80,2.6,Intermediate,Intermediate,-23679,[Not Applicable],LIVING
+TCGA-AB-2870,1,Male,WHITE,M1,76,73,34,Good,Good,-27787,152,DECEASED
+TCGA-AB-2871,1,Male,NH/B,M1,51,62,1.5,Intermediate,Intermediate,-18689,[Not Applicable],LIVING
+TCGA-AB-2872,0,Male,BLACK,M3,42,88,2.1,Good,Good,-15460,[Not Applicable],LIVING
+TCGA-AB-2873,0,Female,NH/C,M5,51,57,14.9,Intermediate,Intermediate,-18688,[Not Applicable],LIVING
+TCGA-AB-2874,0,Male,NH/C,M2,59,70,11.5,Poor,Poor,-21764,[Not Applicable],LIVING
+TCGA-AB-2875,1,Male,NH/C,M2,43,40,4.3,Good,Good,-16010,[Not Applicable],LIVING
+TCGA-AB-2876,0,Female,WHITE,M2,45,56,29.4,Poor,Poor,-16647,[Not Applicable],LIVING
+TCGA-AB-2877,1,Female,WHITE,M1,60,86,11.5,Intermediate,Intermediate,-21946,[Not Applicable],LIVING
+TCGA-AB-2878,0,Female,WHITE,M2,47,37,12,Poor,Poor,-17500,365,DECEASED
+TCGA-AB-2879,1,Female,NH/C,M1,68,90,59.9,Intermediate,Intermediate,-25141,[Not Applicable],LIVING
+TCGA-AB-2880,1,Male,NH/C,M1,24,77,223.8,Intermediate,Intermediate,-8827,[Not Available],DECEASED
+TCGA-AB-2881,0,Female,NH/C,M1,48,75,33.2,Good,Good,-17808,[Not Applicable],LIVING
+TCGA-AB-2882,0,Female,WHITE,M2,73,37,1.7,Poor,Poor,-26843,365,DECEASED
+TCGA-AB-2883,0,Male,WHITE,M5,60,94,6.7,Poor,Poor,-22067,[Not Applicable],LIVING
+TCGA-AB-2884,0,Female,WHITE,M1,44,86,13.5,Intermediate,Intermediate,-16285,731,DECEASED
+TCGA-AB-2885,0,Male,NH/C,M0,71,97,5.4,Poor,Poor,-26176,214,DECEASED
+TCGA-AB-2886,0,Male,NH/C,M2,25,72,11,Good,Good,-9497,[Not Applicable],LIVING
+TCGA-AB-2887,0,Female,NH/C,M1,60,87,46.5,Poor,Poor,-21946,[Not Available],DECEASED
+TCGA-AB-2888,0,Male,NH/C,M4,57,40,4.9,Good,Good,-20878,[Not Applicable],LIVING
+TCGA-AB-2889,0,Female,Unk/C,M4,55,52,30.9,Good,Good,-20149,[Not Applicable],LIVING
+TCGA-AB-2890,0,Male,NH/C,M0,69,60,6.1,Intermediate,Intermediate,-25234,0,DECEASED
+TCGA-AB-2891,0,Male,NH/B,M1,42,68,10.7,Poor,Poor,-15400,[Not Available],DECEASED
+TCGA-AB-2892,0,Female,WHITE,M4,42,40,37.9,Good,Good,-15614,[Not Applicable],LIVING
+TCGA-AB-2893,0,Male,WHITE,M5,45,95,5.1,Poor,Poor,-16616,212,DECEASED
+TCGA-AB-2894,0,Female,WHITE,M5,50,81,6.7,Poor,Intermediate,-18323,180,DECEASED
+TCGA-AB-2895,1,Female,NH/C,M1,41,92,134.4,N.D.,N.D.,-15310,153,DECEASED
+TCGA-AB-2896,0,Female,WHITE,M5,21,90,93,Intermediate,Intermediate,-7882,213,DECEASED
+TCGA-AB-2897,0,Female,NH/C,M3,50,90,3.4,Good,Good,-18412,[Not Applicable],LIVING
+TCGA-AB-2898,0,Female,NH/C,M1,69,42,10.1,Intermediate,Intermediate,-25326,[Not Applicable],LIVING
+TCGA-AB-2899,0,Female,WHITE,M4,76,37,2.7,Intermediate,Intermediate,-27787,671,DECEASED
+TCGA-AB-2900,1,Male,Unk/B,M1,70,84,48,Intermediate,Intermediate,-25627,183,DECEASED
+TCGA-AB-2901,0,Male,NH/B,M1,27,77,90.4,Poor,Poor,-10046,[Not Applicable],LIVING
+TCGA-AB-2903,0,Female,WHITE,M1,76,99,297.4,Intermediate,Intermediate,-27970,0,DECEASED
+TCGA-AB-2904,0,Male,WHITE,M0,65,83,0.9,Poor,Poor,-23833,516,DECEASED
+TCGA-AB-2905,0,Male,HISPANIC,M3,48,65,0.6,Good,Good,-17869,[Not Applicable],LIVING
+TCGA-AB-2906,1,Male,WHITE,M3,59,79,0.7,Good,Good,-21581,[Not Applicable],LIVING
+TCGA-AB-2907,0,Male,WHITE,M0,69,82,1.6,Intermediate,Intermediate,-25264,[Not Available],DECEASED
+TCGA-AB-2908,0,Male,WHITE,M2,81,46,1.5,Poor,Poor,-29768,31,DECEASED
+TCGA-AB-2909,1,Male,NH/A,nc,22,80,115.4,Intermediate,Intermediate,-8220,[Not Applicable],LIVING
+TCGA-AB-2910,1,Female,WHITE,M5,61,71,34.6,Poor,Poor,-22311,0,DECEASED
+TCGA-AB-2911,0,Female,BLACK,M4,51,39,50.3,Poor,Poor,-18689,[Not Applicable],LIVING
+TCGA-AB-2912,0,Male,WHITE,M4,63,62,17.9,Intermediate,Intermediate,-23345,274,DECEASED
+TCGA-AB-2913,1,Male,WHITE,M0,61,95,61.6,Intermediate,Intermediate,-22553,[Not Applicable],LIVING
+TCGA-AB-2914,0,Female,WHITE,M2,22,55,51.8,Good,Good,-8279,[Not Applicable],LIVING
+TCGA-AB-2915,1,Female,NH/C,M2,73,32,15.1,Poor,Poor,-26967,0,DECEASED
+TCGA-AB-2916,0,Female,WHITE,M4,49,51,12.4,Intermediate,Intermediate,-17865,[Not Applicable],LIVING
+TCGA-AB-2917,0,Female,WHITE,M0,41,42,47.6,Poor,Poor,-15128,[Not Applicable],LIVING
+TCGA-AB-2918,1,Female,NHC,M1,47,77,80.5,Intermediate,Poor,-17198,[Not Available],DECEASED
+TCGA-AB-2919,0,Female,NH/C,M1,54,72,13.1,Intermediate,Intermediate,-19724,[Not Applicable],LIVING
+TCGA-AB-2920,0,Male,WHITE,M2,44,39,34.8,Poor,Poor,-16071,366,DECEASED
+TCGA-AB-2921,1,Female,NH/C,M4,55,69,27.6,Intermediate,Intermediate,-20454,[Not Available],DECEASED
+TCGA-AB-2922,1,Male,WHITE,M0,83,75,77.9,Intermediate,Intermediate,-30437,0,DECEASED
+TCGA-AB-2923,0,Male,WHITE,M4,78,70,16.8,Intermediate,Intermediate,-28551,31,DECEASED
+TCGA-AB-2924,1,Male,NH/C,M4,59,75,29.7,Intermediate,Intermediate,-21825,[Not Applicable],LIVING
+TCGA-AB-2925,1,Male,WHITE,M5,57,52,99.2,Intermediate,Intermediate,-20850,242,DECEASED
+TCGA-AB-2926,1,Female,WHITE,M1,57,91,19.8,Intermediate,Intermediate,-20820,456,DECEASED
+TCGA-AB-2927,0,Female,NH/C,M1,88,33,2.9,Intermediate,Intermediate,-32326,89,DECEASED
+TCGA-AB-2928,1,Female,NH/AA,M1,43,87,171.9,Poor,Poor,-15890,[Not Available],DECEASED
+TCGA-AB-2929,0,Female,WHITE,M0,71,55,5.6,Poor,Poor,-26054,123,DECEASED
+TCGA-AB-2930,1,Female,NH/C,M2,62,72,27.7,Intermediate,Poor,-23011,[Not Available],DECEASED
+TCGA-AB-2931,1,Male,WHITE,M2,75,76,98.2,Intermediate,Intermediate,-27485,0,DECEASED
+TCGA-AB-2932,0,Male,WHITE,M5,62,85,59.3,Intermediate,Intermediate,-22738,[Not Applicable],LIVING
+TCGA-AB-2933,0,Male,WHITE,M4,58,79,101.3,Intermediate,Intermediate,-21395,122,DECEASED
+TCGA-AB-2934,1,Male,NH/C,M1,65,79,67.9,Intermediate,Intermediate,-23956,[Not Applicable],LIVING
+TCGA-AB-2935,0,Male,WHITE,M4,66,81,2.2,Poor,Poor,-24349,60,DECEASED
+TCGA-AB-2936,0,Female,NH/C,M0,60,50,2.1,Intermediate,Intermediate,-22280,[Not Applicable],LIVING
+TCGA-AB-2937,0,Female,WHITE,M1,35,81,42.8,Good,Good,-13149,215,DECEASED
+TCGA-AB-2938,0,Male,WHITE,M7,76,33,3.6,Intermediate,Intermediate,-27881,303,DECEASED
+TCGA-AB-2939,0,Male,WHITE,M1,72,88,37.5,Poor,Poor,-26512,[Not Applicable],LIVING
+TCGA-AB-2940,0,Male,WHITE,M2,35,34,33.5,Intermediate,Intermediate,-12876,[Not Available],DECEASED
+TCGA-AB-2941,0,Male,WHITE,nc,73,90,58.9,Poor,Poor,-26998,0,DECEASED
+TCGA-AB-2942,1,Female,WHITE,M4,67,69,37,Good,Good,-24776,[Not Applicable],LIVING
+TCGA-AB-2943,0,Female,NH/C,M1,70,32,0.7,Poor,Poor,-25568,[Not Available],DECEASED
+TCGA-AB-2944,0,Male,NH/C,M0,48,92,111,Poor,Poor,-17622,[Not Available],DECEASED
+TCGA-AB-2945,1,Female,WHITE,M4,65,90,48.5,Poor,Poor,-23983,243,DECEASED
+TCGA-AB-2946,0,Male,NH/C,M2,41,47,43.1,N.D.,N.D.,-15156,[Not Applicable],LIVING
+TCGA-AB-2947,1,Male,NH/C,M4,52,75,298.4,Intermediate,Intermediate,-19146,[Not Applicable],LIVING
+TCGA-AB-2948,0,Male,WHITE,M4,67,30,26.1,Intermediate,Intermediate,-24714,580,DECEASED
+TCGA-AB-2949,0,Male,W/Nat Amer,M0,58,59,47.2,Poor,Poor,-21335,[Not Applicable],LIVING
+TCGA-AB-2950,0,Female,WHITE,M2,34,57,14.3,Good,Good,-12693,[Not Applicable],LIVING
+TCGA-AB-2952,0,Female,WHITE,M1,60,62,16,Poor,Poor,-22187,31,DECEASED
+TCGA-AB-2954,0,Female,Unk,M4,55,54,114.5,Good,Good,-20211,[Not Applicable],LIVING
+TCGA-AB-2955,0,Female,WHITE,M2,56,60,202.7,Intermediate,Intermediate,-20484,489,DECEASED
+TCGA-AB-2956,0,Male,WHITE,M5,61,89,8.4,Intermediate,Intermediate,-22523,183,DECEASED
+TCGA-AB-2957,1,Male,WHITE,M4,31,82,132.7,Good,Good,-11626,[Not Applicable],LIVING
+TCGA-AB-2959,0,Male,WHITE,M0,71,90,1,Intermediate,Intermediate,-26113,489,DECEASED
+TCGA-AB-2963,1,Male,WHITE,M1,56,90,30.5,Intermediate,Intermediate,-20485,1641,DECEASED
+TCGA-AB-2964,0,Female,WHITE,M1,57,64,2.5,Intermediate,Intermediate,-21184,[Not Applicable],LIVING
+TCGA-AB-2965,1,Male,WHITE,M4,60,89,67.5,Intermediate,Intermediate,-22005,335,DECEASED
+TCGA-AB-2966,0,Female,WHITE,M2,57,43,3.1,Intermediate,Intermediate,-20879,854,DECEASED
+TCGA-AB-2967,0,Male,WHITE,M4,58,58,19.9,Intermediate,Intermediate,-21213,[Not Applicable],LIVING
+TCGA-AB-2968,0,Male,WHITE,M4,79,58,18.5,Intermediate,Intermediate,-28974,458,DECEASED
+TCGA-AB-2969,1,Male,WHITE,M5,55,97,72.6,Intermediate,Intermediate,-20330,[Not Applicable],LIVING
+TCGA-AB-2970,1,Female,WHITE,M4,34,71,19.6,Intermediate,Intermediate,-12568,305,DECEASED
+TCGA-AB-2971,0,Female,WHITE,M4,76,91,5,Intermediate,Intermediate,-27790,792,DECEASED
+TCGA-AB-2972,0,Female,WHITE,M2,82,53,1.4,Intermediate,Intermediate,-30133,30,DECEASED
+TCGA-AB-2973,0,Female,WHITE,M4,67,75,15.2,Intermediate,Intermediate,-24836,609,DECEASED
+TCGA-AB-2974,1,Female,WHITE,M5,67,85,45.3,Intermediate,Intermediate,-24714,92,DECEASED
+TCGA-AB-2975,0,Male,BLACK,M2,54,67,45,Intermediate,Intermediate,-20057,[Not Available],DECEASED
+TCGA-AB-2976,1,Male,WHITE,M1,53,86,88.1,Intermediate,Intermediate,-19569,915,DECEASED
+TCGA-AB-2977,0,Female,WHITE,M2,71,70,35.9,Intermediate,Intermediate,-26053,30,DECEASED
+TCGA-AB-2978,0,Female,WHITE,M2,61,43,9.8,Intermediate,Intermediate,-22401,[Not Applicable],LIVING
+TCGA-AB-2979,0,Female,WHITE,M1,30,86,22.9,Intermediate,Intermediate,-11262,[Not Applicable],LIVING
+TCGA-AB-2980,1,Male,WHITE,M3,50,74,0.5,Good,Good,-18506,[Not Applicable],LIVING
+TCGA-AB-2981,1,Female,WHITE,M5,35,87,72.1,Intermediate,Intermediate,-13027,[Not Applicable],LIVING
+TCGA-AB-2982,0,Female,HISPANIC,M3,29,85,1.2,Good,Good,-10807,[Not Applicable],LIVING
+TCGA-AB-2983,0,Male,WHITE,M0,45,75,2.3,Intermediate,Intermediate,-16589,335,DECEASED
+TCGA-AB-2984,0,Male,WHITE,M1,38,86,39.8,Intermediate,Intermediate,-14123,[Not Applicable],LIVING
+TCGA-AB-2985,0,Female,WHITE,M5,81,53,12.3,Intermediate,Poor,-29889,273,DECEASED
+TCGA-AB-2986,1,Female,WHITE,M2,31,63,12.6,Intermediate,Intermediate,-11595,212,DECEASED
+TCGA-AB-2987,0,Female,WHITE,M5,75,41,7.3,Intermediate,Intermediate,-27666,184,DECEASED
+TCGA-AB-2988,1,Female,WHITE,M1,67,76,45.6,Intermediate,Intermediate,-24716,30,DECEASED
+TCGA-AB-2989,0,Male,WHITE,M2,29,45,2.2,Intermediate,Intermediate,-10773,365,DECEASED
+TCGA-AB-2990,0,Male,WHITE,M1,51,85,63.7,Intermediate,Intermediate,-18962,[Not Applicable],LIVING
+TCGA-AB-2991,0,Female,WHITE,M3,40,90,0.4,Good,Good,-14884,[Not Applicable],LIVING
+TCGA-AB-2992,0,Female,WHITE,M1,32,94,5.1,Intermediate,Intermediate,-11838,1706,DECEASED
+TCGA-AB-2993,1,Female,WHITE,M1,57,100,102.5,Intermediate,Intermediate,-21123,761,DECEASED
+TCGA-AB-2994,1,Male,WHITE,M3,25,91,8.2,Good,Good,-9436,[Not Applicable],LIVING
+TCGA-AB-2995,0,Male,WHITE,M2,63,35,0.6,Intermediate,Intermediate,-23164,[Not Applicable],LIVING
+TCGA-AB-2996,0,Male,WHITE,M2,75,63,2.5,Intermediate,Intermediate,-27364,[Not Applicable],LIVING
+TCGA-AB-2997,0,Female,WHITE,M3,25,93,16.3,Good,Good,-9162,[Not Available],DECEASED
+TCGA-AB-2998,1,Female,WHITE,M3,68,85,29,Good,Good,-24836,31,DECEASED
+TCGA-AB-2999,0,Male,WHITE,M3,62,82,0.9,Good,Good,-22980,[Not Applicable],LIVING
+TCGA-AB-3000,0,Male,WHITE,M2,25,56,98.8,Intermediate,Intermediate,-9250,[Not Applicable],LIVING
+TCGA-AB-3001,0,Female,WHITE,M3,31,40,1.6,Good,Good,-11446,[Not Applicable],LIVING
+TCGA-AB-3002,0,Male,WHITE,M2,68,64,5.5,Intermediate,Intermediate,-25171,1431,DECEASED
+TCGA-AB-3005,0,Male,WHITE,M5,45,81,1.6,Intermediate,Poor,-16528,[Not Applicable],LIVING
+TCGA-AB-3006,1,Male,WHITE,M1,61,49,2.9,Intermediate,Intermediate,-22464,484,DECEASED
+TCGA-AB-3007,1,Male,WHITE,M3,35,90,1.5,Good,Good,-13029,[Not Applicable],LIVING
+TCGA-AB-3008,0,Male,WHITE,M1,22,71,1.2,Intermediate,Intermediate,-8159,822,DECEASED
+TCGA-AB-3009,0,Male,WHITE,M4,23,51,27.1,Intermediate,Intermediate,-8676,576,DECEASED
+TCGA-AB-3011,0,Female,WHITE,M1,21,91,8.2,Intermediate,Intermediate,-7916,[Not Applicable],LIVING
+TCGA-AB-3012,0,Male,WHITE,M3,53,42,1,Good,Good,-19543,[Not Applicable],LIVING
